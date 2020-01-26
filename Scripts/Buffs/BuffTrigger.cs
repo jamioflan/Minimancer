@@ -1,0 +1,17 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum BuffTrigger
+{
+	COMBO_INCREMENTED,
+	ENEMY_DIED,
+	PLAYER_MELEE_DIED,
+	PLAYER_RANGED_DIED,
+	ENEMY_HIT_WITH_RANGED,
+	PLAYER_HEALED,
+	ENTER_RANGED_ZONE,
+	ENTER_MELEE_ZONE,
+	WAVE_COMPLETED,
+	ENEMY_DIED_TO_MELEE,
+}
